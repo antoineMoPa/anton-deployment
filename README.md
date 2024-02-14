@@ -2,10 +2,10 @@
 
 This repo is just me trying some basic k8s stuff.
 
-- Create a simple deployment
-- Create a service to expose the deployment
-- Setup the k8s dashboard
-- Create an admin user to access the dashboard
+- Create a simple deployment.
+- Create a service to expose the deployment.
+- Setup the k8s dashboard.
+- Create an admin user to access the dashboard.
 
 # Requirements
 
