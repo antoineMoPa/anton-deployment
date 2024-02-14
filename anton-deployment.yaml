@@ -21,5 +21,5 @@ spec:
       volumes:
         - name: static-content
           hostPath:
-            path: /Users/lumen5/lumen5/antonk8s/staticContent
+            path: $STATIC_CONTENT_PATH
             type: Directory

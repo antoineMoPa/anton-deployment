@@ -1,1 +1,39 @@
-HELLO WORLD
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to Anton k8s Deployment</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            text-align: center;
+            animation: flip 0.5s;
+        }
+        @keyframes flip {
+            from {
+                transform: rotateX(180deg);
+            }
+            to {
+                transform: rotateX(0deg);
+            }
+        }
+        p {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to Anton Deployment</h1>
+    <p>
+        This is a simple page to test the deployment of nginx with a static page on k8s.
+    </p>
+    <p>
+      See k8s dashboard
+      <a href="http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/#/login" target="_blank">here</a>.
+    </p>
+  </body>
+</html>
