@@ -22,13 +22,13 @@ Run `./deploy.sh`.
 
 # Exploration
 
-- Run `kubectl get pods` to see the pods that are running
-- Run `kubectl get services` to see the services that are running
-- Run `kubectl get deployments` to see the deployments that are running
-- Run `kubectl get nodes` to see the nodes that are running
-- Run `kubectl get all` to see everything that is running
-- Learning k8s without access to the internet
-   - Run `kubectl api-resources` to see the API resources that are available
+- Run `kubectl get pods` to see the pods that are running.
+- Run `kubectl get services` to see the services that are running.
+- Run `kubectl get deployments` to see the deployments that are running.
+- Run `kubectl get nodes` to see the nodes that are running.
+- Run `kubectl get all` to see everything that is running.
+- Learning k8s without access to the internet:
+   - Run `kubectl api-resources` to see the API resources that are available.
    - Run `kubectl explain deployments --recursive` to see the fields that are available for an API resource like deployments.
    - Run `kubectl explain Pod` to see documentation about Pods along with their available fields.
    - Run `kubectl explain Pod.spec` to see documentation about one field in Pod (spec).
