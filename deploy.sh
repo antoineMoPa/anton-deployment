@@ -18,7 +18,7 @@ echo """
 ###################################
 """
 
-export STATIC_CONTENT_PATH=/Users/lumen5/lumen5/antonk8s/staticContent/
+export STATIC_CONTENT_PATH=$(pwd)/staticContent/
 envsubst < anton-deployment.yaml | kubectl apply -f -
 kubectl apply -f nginx-service.yaml
 
