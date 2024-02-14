@@ -18,7 +18,7 @@ Currently, deply.sh sets the context to `docker-desktop` to reduce likelyhood th
 
 # How to use
 
-Run ./deploy.sh.
+Run `./deploy.sh`.
 
 # Exploration
 
