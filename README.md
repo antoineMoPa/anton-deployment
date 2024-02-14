@@ -14,7 +14,7 @@ settings.
 
 If you have access to another development cluster, you could also change the context in deploy.sh to point to that.
 
-Currently, deply.sh sets the context to `docker-desktop` to reduce likelyhood that someone will accidentally deploy to a production cluster.
+Currently, deploy.sh sets the context to `docker-desktop` to reduce likelyhood that someone will accidentally deploy to a production cluster.
 
 # How to use
 
